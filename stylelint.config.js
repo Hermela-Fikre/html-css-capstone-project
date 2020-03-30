@@ -106,4 +106,8 @@ module.exports = {
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
   },
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a3f38ec905f21d1167b026185814602b355e4266
