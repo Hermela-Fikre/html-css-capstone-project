@@ -43,3 +43,132 @@ header .navbar-top {
   font-weight: 700;
   color: black;
 }
+
+.carousel-item {
+  background-image: url("../img/hero_1.webp.jpg");
+  height: 500px;
+  margin-top: 2%;
+  background-size: cover;
+}
+
+.carousel-item h1 {
+  font-weight: 900;
+  margin-top: 28%;
+  font: 100px "Lato", sans-serif;
+}
+
+.carousel-item h2 {
+  font-weight: 900;
+  margin-top: 28%;
+  font: 100px "Lato", sans-serif;
+}
+
+.welcome {
+  background-size: cover;
+  position: relative;
+  color: rgb(128, 128, 128);
+  margin-bottom: 5%;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #222;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  opacity: 0.7;
+  border-bottom-right-radius: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.programs {
+  margin-bottom: 5%;
+}
+
+.programs h2 {
+  text-align: center;
+}
+
+.line {
+  height: 5px;
+  width: 150px;
+  border-top: 5px solid #51be78;
+  margin: 15px auto;
+}
+
+.col.md-6 {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-4 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.border {
+  border: 1px solid #dee2de;
+}
+
+.content {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.popular-courses {
+  text-align: center;
+}
+
+.course-item-1 .category {
+  background: #51be78;
+  padding: 10px;
+}
+
+.category h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 22px;
+}
+
+.btn {
+  background: #51be78;
+  font-weight: 700;
+  color: #fff;
+}
+
+.course-content {
+  padding-top: 5%;
+}
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
