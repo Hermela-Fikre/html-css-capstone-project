@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.navbar-top {
+  height: 30px;
+  background-color: #414246;
+  padding-left: 5%;
+  padding-right: 6.5%;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.navbar-top div {
+  display: flex;
+  align-items: center;
+}
+
+.pl-4 {
+  margin-left: 1%;
+}
+
+header .navbar-top {
+  color: #fff;
+}
+
+.navbar {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#navbarNav a:hover {
+  cursor: pointer;
+  color: #51be78;
+}
+
+#navbarNav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
