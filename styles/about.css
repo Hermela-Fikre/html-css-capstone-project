@@ -142,3 +142,8 @@ p {
   padding-left: 40px;
 }
 
+@media (max-width: 768px) {
+  .navbar-top {
+    display: none;
+  }
+}
