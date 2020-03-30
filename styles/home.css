@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 .navbar-top {
@@ -33,15 +32,15 @@ header .navbar-top {
   padding-left: 5%;
 }
 
-#navbarNav a:hover {
-  cursor: pointer;
-  color: #51be78;
-}
-
 #navbarNav a {
   font-size: 20px;
   font-weight: 700;
   color: black;
+}
+
+#navbarNav a:hover {
+  cursor: pointer;
+  color: #51be78;
 }
 
 .carousel-item {
@@ -52,15 +51,15 @@ header .navbar-top {
 }
 
 .carousel-item h1 {
-  font-weight: 900;
   margin-top: 28%;
   font: 100px "Lato", sans-serif;
+  font-weight: 900;
 }
 
 .carousel-item h2 {
-  font-weight: 900;
   margin-top: 28%;
   font: 100px "Lato", sans-serif;
+  font-weight: 900;
 }
 
 .welcome {
@@ -78,8 +77,6 @@ header .navbar-top {
   background: #222;
   background-position-x: 0%;
   background-position-y: 0%;
-  background-repeat: repeat;
-  background-size: auto;
   opacity: 0.7;
   border-bottom-right-radius: 0;
   background-size: cover;

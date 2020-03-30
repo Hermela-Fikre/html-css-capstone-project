@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 .navbar-top {
@@ -33,15 +32,15 @@ header .navbar-top {
   padding-left: 5%;
 }
 
-#navbarNav a:hover {
-  cursor: pointer;
-  color: #51be78;
-}
-
 #navbarNav a {
   font-size: 20px;
   font-weight: 700;
   color: black;
+}
+
+#navbarNav a:hover {
+  cursor: pointer;
+  color: #51be78;
 }
 
 .line {
@@ -99,7 +98,6 @@ header .navbar-top {
 }
 
 .course-content h5 {
-  /* padding-top: 5%; */
   text-align: center;
   padding: 4%;
 }

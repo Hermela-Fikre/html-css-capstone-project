@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 .navbar-top {
@@ -33,15 +32,15 @@ header .navbar-top {
   padding-left: 5%;
 }
 
-#navbarNav a:hover {
-  cursor: pointer;
-  color: #51be78;
-}
-
 #navbarNav a {
   font-size: 20px;
   font-weight: 700;
   color: black;
+}
+
+#navbarNav a:hover {
+  cursor: pointer;
+  color: #51be78;
 }
 
 .about {
@@ -69,9 +68,7 @@ header .navbar-top {
 }
 
 .container .col-lg-4 {
-  /* border: 1px solid black; */
   position: relative;
-  /* width: 100%; */
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -88,8 +85,6 @@ p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .col-lg-4 h2 {

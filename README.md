@@ -42,7 +42,7 @@ A browser (preferably Chrome)
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kblycaglayan/HTML-CSS-capstone-project-Conference-page/issues)
+Feel free to check the [issues page](https://github.com/Hermela-Fikre/html-css-capstone-project/issues)
 
 Start by:
 
