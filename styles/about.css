@@ -123,3 +123,26 @@ p {
   border-radius: 50%;
   margin-top: -50px;
 }
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  padding: 4rem 0;
+  background: #183661;
+  font-size: 14px;
+  color: #fff;
+}
+
+.list-unstyled {
+  padding-left: 40px;
+}
+
+.footer-heading {
+  padding-left: 40px;
+}
