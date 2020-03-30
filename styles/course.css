@@ -107,3 +107,27 @@ header .navbar-top {
 .description {
   padding: 4%;
 }
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  margin-top: 5%;
+  padding: 4rem 0;
+  background: #183661;
+  font-size: 14px;
+  color: #fff;
+}
+
+.list-unstyled {
+  padding-left: 40px;
+}
+
+.footer-heading {
+  padding-left: 40px;
+}
