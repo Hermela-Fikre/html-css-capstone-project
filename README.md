@@ -1,10 +1,11 @@
 [![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Hermela-Click%20to%20Contact-brightgreen)](fikre.eleni@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/hermela-fikre?label=Follow%20hermela-fikre%20on%20Twitter&style=social)](https://twitter.com/hermela-fikre)
 
-# HTML-CSS-capstone-project-Conference-page
+# HTML-CSS-capstone-project-Web-Developmet Course-Page
 
-> Creating https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 website according to the specs.
-
-![capstone-html](https://user-images.githubusercontent.com/60448833/76857618-df44c380-6866-11ea-88c9-802b5f23f509.gif)
+<br>
+<br>
+<img src="img/screen.png" width="700"> 
+<br>
 
 
 Additional description about the project and its features.
@@ -18,7 +19,7 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/Hermela-Fikre/html-css-capstone-project/html-css/home.html)
-[Video Presentation](https://www.loom.com/share/58722e33790e41c18a7e61f090bb29f1)
+[Video Presentation](https://www.loom.com/share/6c205085f18d4ffc8dff15d6b26e78de)
 
 ### Prerequisites
 
