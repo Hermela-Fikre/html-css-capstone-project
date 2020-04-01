@@ -142,6 +142,10 @@ p {
   padding-left: 40px;
 }
 
+.img-1 {
+  width: 260px;
+}
+
 @media (max-width: 768px) {
   .navbar-top {
     display: none;
