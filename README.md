@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/kblycaglayan/HTML-CSS-capstone-project-Conference-page/65c0b4f71f46e41a66cc9ae49396506723a5d562/index.html)
+[Live Demo Link](https://raw.githack.com/Hermela-Fikre/html-css-capstone-project/html-css/home.html)
 [Video Presentation](https://www.loom.com/share/58722e33790e41c18a7e61f090bb29f1)
 
 ### Prerequisites
