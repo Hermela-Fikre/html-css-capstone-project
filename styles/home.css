@@ -43,20 +43,20 @@ header .navbar-top {
   color: #51be78;
 }
 
-.carousel-item {
+.carousel-inner{
   background-image: url("../img/hero_1.webp.jpg");
   height: 500px;
   margin-top: 2%;
   background-size: cover;
 }
 
-.carousel-item h1 {
+.carousel-inner h1 {
   margin-top: 28%;
   font: 100px "Lato", sans-serif;
   font-weight: 900;
 }
 
-.carousel-item h2 {
+.carousel-inner h2 {
   margin-top: 28%;
   font: 100px "Lato", sans-serif;
   font-weight: 900;
@@ -69,7 +69,7 @@ header .navbar-top {
   margin-bottom: 5%;
 }
 
-.carousel-item::before {
+.carousel-inner::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -186,8 +186,31 @@ header .navbar-top {
   padding-left: 40px;
 }
 
+.img-1 {
+  width: 260px;
+}
+
 @media (max-width: 768px) {
   .navbar-top {
     display: none;
   }
+  
+  .carousel-inner h1 {
+    font-size: 24px;
+    margin-top: 28%;
+  }
+
+  .footer-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .list-unstyled {
+    text-align: center;
+    padding-left: 10px;
+  }
 }
+

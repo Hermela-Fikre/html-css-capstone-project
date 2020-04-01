@@ -150,4 +150,22 @@ p {
   .navbar-top {
     display: none;
   }
+
+  .footer-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .list-unstyled {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .about {
+    padding-top: 20%;
+    color: #fff;
+  }
 }

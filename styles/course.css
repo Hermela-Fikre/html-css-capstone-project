@@ -130,8 +130,30 @@ header .navbar-top {
   padding-left: 40px;
 }
 
+.img-1 {
+  width: 260px;
+}
+
 @media (max-width: 768px) {
   .navbar-top {
     display: none;
+  }
+
+  .footer-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .list-unstyled {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .course {
+    padding-top: 20%;
+    color: #fff;
   }
 }
