@@ -43,7 +43,7 @@ header .navbar-top {
   color: #51be78;
 }
 
-.carousel-inner{
+.carousel-inner {
   background-image: url("../img/hero_1.webp.jpg");
   height: 500px;
   margin-top: 2%;
@@ -194,12 +194,12 @@ header .navbar-top {
   .navbar-top {
     display: none;
   }
-  
+
   .carousel-inner h1 {
     font-size: 24px;
     margin-top: 28%;
   }
-
+  
   .footer-heading {
     align-items: center;
     display: flex;
