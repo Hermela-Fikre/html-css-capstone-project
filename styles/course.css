@@ -5,7 +5,7 @@
 
 .navbar-top {
   height: 30px;
-  background-color: #414246;
+  background-color: #272A31;
   padding-left: 5%;
   padding-right: 6.5%;
 }
@@ -28,25 +28,28 @@ header .navbar-top {
 }
 
 .navbar {
-  padding-right: 5%;
   padding-left: 5%;
 }
 
-#navbarNav a {
+.nav a {
   font-size: 22px;
   font-weight: 700;
   color: black;
 }
 
-#navbarNav a:hover {
+.nav {
+  padding-left: 560px;
+}
+
+.nav a:hover {
   cursor: pointer;
-  color: #51be78;
+  color: #EC5242;
 }
 
 .line {
   height: 5px;
   width: 230px;
-  border-top: 5px solid #51be78;
+  border-top: 5px solid #EC5242;
   margin: 15px auto;
 }
 
@@ -64,11 +67,11 @@ header .navbar-top {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 .border {
-  border: 1px solid #dee2de;
+  border: 1px solid #D3D3D3;
   height: 250px;
 }
 
@@ -81,7 +84,7 @@ header .navbar-top {
 }
 
 .course-item-1 .category {
-  background: #51be78;
+  background: #EC5242;
   padding: 10px;
 }
 
@@ -92,7 +95,7 @@ header .navbar-top {
 }
 
 .btn {
-  background: #51be78;
+  background: #EC5242;
   font-weight: 700;
   color: #fff;
 }
@@ -117,13 +120,13 @@ header .navbar-top {
 .footer {
   margin-top: 5%;
   padding: 4rem 0;
-  background: #183661;
+  background: #272A31;
   font-size: 14px;
   color: #fff;
 }
 
 .list-unstyled {
-  padding-left: 40px;
+  padding-left: 70px;
 }
 
 .footer-heading {
@@ -132,6 +135,10 @@ header .navbar-top {
 
 .img-1 {
   width: 260px;
+}
+
+.list-unstyled a {
+  color: #fff;
 }
 
 @media (max-width: 768px) {
