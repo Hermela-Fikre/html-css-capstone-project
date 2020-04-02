@@ -5,7 +5,7 @@
 
 .navbar-top {
   height: 30px;
-  background-color: #272A31;
+  background-color: #272a31;
   padding-left: 5%;
   padding-right: 6.5%;
 }
@@ -31,6 +31,10 @@ header .navbar-top {
   padding-left: 5%;
 }
 
+.list-unstyled a {
+  color: #fff;
+}
+
 .nav a {
   font-size: 22px;
   font-weight: 700;
@@ -43,7 +47,7 @@ header .navbar-top {
 
 .nav a:hover {
   cursor: pointer;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .carousel-inner {
@@ -98,7 +102,7 @@ header .navbar-top {
 .line {
   height: 5px;
   width: 150px;
-  border-top: 5px solid #EC5242;
+  border-top: 5px solid #ec5242;
   margin: 15px auto;
 }
 
@@ -122,7 +126,7 @@ header .navbar-top {
 }
 
 .border {
-  border: 1px solid #dee2de;
+  border: 1px solid #d3d3d3;
 }
 
 .content {
@@ -145,7 +149,7 @@ header .navbar-top {
 }
 
 .course-item-1 .category {
-  background: #EC5242;
+  background: #ec5242;
   padding: 10px;
 }
 
@@ -156,7 +160,7 @@ header .navbar-top {
 }
 
 .btn {
-  background: #EC5242;
+  background: #ec5242;
   font-weight: 700;
   color: #fff;
 }
@@ -176,7 +180,7 @@ header .navbar-top {
 .footer {
   margin-top: 5%;
   padding: 4rem 0;
-  background: #272A31;
+  background: #272a31;
   font-size: 15px;
   color: #fff;
 }
@@ -192,10 +196,6 @@ header .navbar-top {
 
 .img-1 {
   width: 260px;
-}
-
-.list-unstyled a {
-  color: #fff;
 }
 
 @media (max-width: 768px) {
