@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-top {
+  height: 30px;
+  background-color: #272a31;
+  padding-left: 5%;
+  padding-right: 6.5%;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.navbar-top div {
+  display: flex;
+  align-items: center;
+}
+
+.pl-4 {
+  margin-left: 1%;
+}
+
+header .navbar-top {
+  color: #fff;
+}
+
+.navbar {
+  padding-left: 5%;
+}
+
+.list-unstyled a {
+  color: #fff;
+}
+
+.nav a {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
+
+.nav {
+  padding-left: 560px;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  color: #ec5242;
+}
+
+.about {
+  background-image: url("../img/bg_1.webp");
+  text-align: left;
+  padding-top: 7%;
+  height: 195px;
+  background-size: cover;
+  margin-top: 5%;
+}
+
+.border-bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container .col-lg-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.line {
+  height: 5px;
+  width: 120px;
+  border-top: 5px solid #ec5242;
+  margin: 15px auto;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.col-lg-4 h2 {
+  text-align: center;
+}
+
+.teachers .row {
+  margin-top: 5%;
+}
+
+.teachers {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.teachers .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-1 {
+  height: 300px;
+  margin-bottom: 19%;
+}
+
+.img-fluid {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  padding: 4rem 0;
+  background: #272a31;
+  font-size: 14px;
+  color: #fff;
+}
+
+.list-unstyled {
+  padding-left: 70px;
+}
+
+.footer-heading {
+  padding-left: 40px;
+}
+
+.img-1 {
+  width: 260px;
+}
+
+@media (max-width: 768px) {
+  .navbar-top {
+    display: none;
+  }
+
+  .footer-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .list-unstyled {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .about {
+    padding-top: 20%;
+    color: #fff;
+  }
+}

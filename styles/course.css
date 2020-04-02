@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-top {
+  height: 30px;
+  background-color: #272a31;
+  padding-left: 5%;
+  padding-right: 6.5%;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.navbar-top div {
+  display: flex;
+  align-items: center;
+}
+
+.pl-4 {
+  margin-left: 1%;
+}
+
+header .navbar-top {
+  color: #fff;
+}
+
+.navbar {
+  padding-left: 5%;
+}
+
+.list-unstyled a {
+  color: #fff;
+}
+
+.nav a {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
+
+.nav {
+  padding-left: 560px;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  color: #ec5242;
+}
+
+.line {
+  height: 5px;
+  width: 230px;
+  border-top: 5px solid #ec5242;
+  margin: 15px auto;
+}
+
+.course {
+  background-image: url("../img/bg_1.webp");
+  text-align: left;
+  padding-top: 7%;
+  margin-top: 5%;
+  height: 195px;
+  background-size: cover;
+}
+
+.border-bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.border {
+  border: 1px solid #d3d3d3;
+  height: 250px;
+}
+
+.popular-courses {
+  text-align: center;
+}
+
+.col-lg-4 {
+  margin-bottom: 5%;
+}
+
+.course-item-1 .category {
+  background: #ec5242;
+  padding: 10px;
+}
+
+.category h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 22px;
+}
+
+.btn {
+  background: #ec5242;
+  font-weight: 700;
+  color: #fff;
+}
+
+.course-content h5 {
+  text-align: center;
+  padding: 4%;
+}
+
+.description {
+  padding: 4%;
+}
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  margin-top: 5%;
+  padding: 4rem 0;
+  background: #272a31;
+  font-size: 14px;
+  color: #fff;
+}
+
+.list-unstyled {
+  padding-left: 70px;
+}
+
+.footer-heading {
+  padding-left: 40px;
+}
+
+.img-1 {
+  width: 260px;
+}
+
+@media (max-width: 768px) {
+  .navbar-top {
+    display: none;
+  }
+
+  .footer-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .list-unstyled {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .course {
+    padding-top: 20%;
+    color: #fff;
+  }
+}
